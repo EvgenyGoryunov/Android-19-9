@@ -20,7 +20,16 @@
     tools:context=".MainActivity">
 
 
-  <!--нижнее меню для кнопок-->
+  <!--верхнее меню для кнопок синий-->
+  <FrameLayout
+      android:id="@+id/up_bot"
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:layout_gravity="center|top"
+      android:background="#4000F1"/>
+
+
+  <!--нижнее меню для кнопок зеленый -->
   <FrameLayout
       android:id="@+id/down_bot"
       android:layout_width="match_parent"
@@ -32,13 +41,7 @@
       android:layout_marginBottom="40dp"
 -->
 
-  <!--верхнее меню для кнопок-->
-  <FrameLayout
-      android:id="@+id/up_bot"
-      android:layout_width="match_parent"
-      android:layout_height="70dp"
-      android:layout_gravity="center|top"
-      android:background="#4000F1"/>
+
 
 <!--  android:layout_gravity="center"-->
 
