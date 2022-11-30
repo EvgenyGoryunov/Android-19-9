@@ -20,18 +20,28 @@
     tools:context=".MainActivity">
 
 
+  <!--центральное меню для кнопок красный-->
+  <LinearLayout
+      android:id="@+id/central_menu"
+      android:layout_width="300dp"
+      android:layout_height="500dp"
+      android:layout_gravity="center"
+      android:orientation="vertical"
+      android:background="#FF0000">
+  </LinearLayout>
+
+
   <!--верхнее меню для кнопок синий-->
   <FrameLayout
-      android:id="@+id/up_bot"
+      android:id="@+id/up_menu"
       android:layout_width="match_parent"
       android:layout_height="70dp"
       android:layout_gravity="center|top"
       android:background="#4000F1"/>
 
-
   <!--нижнее меню для кнопок зеленый -->
   <FrameLayout
-      android:id="@+id/down_bot"
+      android:id="@+id/down_menu"
       android:layout_width="match_parent"
       android:layout_height="70dp"
       android:layout_gravity="center|bottom"
