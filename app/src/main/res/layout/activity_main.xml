@@ -19,23 +19,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-  <FrameLayout
-      android:layout_width="80dp"
-      android:layout_height="80dp"
-      android:layout_gravity="center"
-      android:background="#4000F1" />
 
+  <!--нижнее меню для кнопок-->
   <FrameLayout
-      android:layout_width="80dp"
-      android:layout_height="80dp"
-      android:layout_gravity="center_vertical"
-      android:background="#FF0000" />
-
-  <FrameLayout
-      android:layout_width="80dp"
-      android:layout_height="80dp"
-      android:layout_gravity="end|bottom"
-      android:layout_marginBottom="40dp"
-      android:layout_marginEnd="40dp"
+      android:id="@+id/down_bot"
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:layout_gravity="center|bottom"
       android:background="#00FF80" />
+
+<!--  android:layout_gravity="end|bottom"
+      android:layout_marginBottom="40dp"
+-->
+
+  <!--верхнее меню для кнопок-->
+  <FrameLayout
+      android:id="@+id/up_bot"
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:layout_gravity="center|top"
+      android:background="#4000F1"/>
+
+<!--  android:layout_gravity="center"-->
+
 </FrameLayout>
