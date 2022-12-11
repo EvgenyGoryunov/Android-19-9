@@ -7,20 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--центральное меню для кнопок красный-->
-  <LinearLayout
-      android:id="@+id/central_menu"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:layout_marginStart="30dp"
-      android:layout_marginTop="100dp"
-      android:layout_marginEnd="30dp"
-      android:layout_marginBottom="100dp"
-      android:background="#FF0000"
-      android:orientation="vertical" />
+    <!--центральное меню для кнопок (красный)-->
+    <LinearLayout
+        android:id="@+id/central_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="100dp"
+        android:background="#FF0000"
+        android:orientation="vertical" />
 
-
-    <!--верхнее меню для кнопок синий-->
+    <!--верхнее меню для кнопок (синий)-->
     <FrameLayout
         android:id="@+id/up_menu"
         android:layout_width="match_parent"
@@ -28,7 +27,7 @@
         android:layout_gravity="center|top"
         android:background="#4000F1" />
 
-    <!--нижнее меню для кнопок зеленый -->
+    <!--нижнее меню для кнопок (зеленый) -->
     <FrameLayout
         android:id="@+id/down_menu"
         android:layout_width="match_parent"
