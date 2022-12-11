@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="ref">Взято с сайта Roga_i_Kopita.com</string>
+    <string name="b_menu">Меню</string>
+    <string name="b_izbran">Избранное</string>
+    <string name="b_posmotr">Посмотреть позже</string>
+    <string name="b_podborki">Подборки</string>
+    <string name="b_nastroiki">Настройки</string>
 </resources>
