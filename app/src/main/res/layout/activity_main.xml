@@ -10,14 +10,44 @@
     <!--центральное меню для кнопок (красный)-->
     <LinearLayout
         android:id="@+id/central_menu"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="100dp"
-        android:background="#FF0000"
-        android:orientation="vertical" />
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FF9800"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button3" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button4" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button5" />
+
+    </LinearLayout>
 
     <!--верхнее меню для кнопок (синий)-->
     <FrameLayout
@@ -25,7 +55,20 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center|top"
-        android:background="#4000F1" />
+        android:background="#4000F1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="top|center"
+            android:background="#652ACD"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="0.1"
+            android:text="  FilmSearch" />
+    </FrameLayout>
 
     <!--нижнее меню для кнопок (зеленый) -->
     <FrameLayout
