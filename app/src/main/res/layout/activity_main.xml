@@ -67,22 +67,6 @@
 
         <!--верхнее меню для кнопок (синий)-->
 
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:layout_gravity="top|center"
-            android:background="#652ACD"
-            android:shadowColor="@color/black"
-            android:shadowDx="5"
-            android:shadowDy="5"
-            android:shadowRadius="0.1"
-            android:text="  FilmSearch"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            tools:ignore="MissingConstraints" />
-
         <FrameLayout
             android:id="@+id/up_menu"
             android:layout_width="match_parent"
