@@ -22,41 +22,41 @@
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
             android:background="?selectableItemBackgroundBorderless"
-            android:text="@string/b_menu" />
+            android:text="@string/b_menu"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
             android:background="?selectableItemBackgroundBorderless"
-            android:text="@string/b_izbran" />
+            android:text="@string/b_izbran"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
             android:background="?selectableItemBackgroundBorderless"
-            android:text="@string/b_posmotr" />
+            android:text="@string/b_posmotr"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
             android:background="?selectableItemBackgroundBorderless"
-            android:text="@string/b_podborki" />
+            android:text="@string/b_podborki"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
             android:background="?selectableItemBackgroundBorderless"
-            android:text="@string/b_nastroiki" />
+            android:text="@string/b_nastroiki"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
