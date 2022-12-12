@@ -89,8 +89,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="88dp"
         android:autoLink="web"
         android:linksClickable="true"
         android:text="@string/ref"
